@@ -1,0 +1,139 @@
+Day 10(25/08/26)
+Dictionary:-
+->  dict is a collection of key:value pair
+ -> key must be unique and it should be immutable data type
+  (int,str,tuple)
+-> dict is represented in {}
+eg:-  details={1:2,
+                'name':'madhu',
+                 (1,2):[1,2]}
+    print(details)
+Accessing:-
+dict can access by calling key,we will get value from that key
+syntax-->  dict['key']
+--> get() method is also used to get the value from the key
+syntax:- dict.get(key)
+eg:-  data_={ 'name':'madhu',
+           'balance':7000,
+           'adr':12345667890,
+           'pan':'GHNBJNGDB67548M',
+           2:[3,4]}
+ print(data_['adr'])
+ print(data_.get(2))
+UPDATE:_
+ update is used to update a key,incase if the key is not present inside dict then it add that key:value
+ symntax--> dict.update({key:value})
+
+ --> there is another way to update a key
+ syntax--> dict[key]= value
+eg:- data_={ 'name':'madhu',
+           'balance':7000,
+           'adr':12345667890,
+           'pan':'GHNBJNGDB67548M',
+           2:[3,4]}
+print(data_)
+data_['AC']=9391456837
+print(data_)
+
+data_.update({'name':'mani'})
+data_.update({'ATMPIN':9988})
+print(data_)
+
+Values():-
+values() methodis used to get all the values from the dict
+syntax:- dict.value()
+eg:-  data_={ 'name':'madhu',
+      'balance':7000,
+      'adr':12345667890,
+      'pan':'GHNBJNGDB67548M',
+       2:[3,4]}
+ print(data_.values())
+
+keys():-
+keys()methodis used to get all the values from the dict
+syntax:- dict.keys()
+eg:-  data_={ 'name':'madhu',
+      'balance':7000,
+      'adr':12345667890,
+      'pan':'GHNBJNGDB67548M',
+       }
+ print(data_.keys())
+
+items():-
+the method will get the key:value separated from the dict
+syntax-->b dict.items()
+eg:- data_={ 'name':'madhu',
+      'balance':7000,
+      'adr':12345667890,
+      'pan':'GHNBJNGDB67548M',
+       }
+print(data_.items())
+
+clear():-
+clear()method is udes to del all data from dict
+syntax:- dict.clear()
+eg:- data_={ 'name':'madhu',
+      'balance':7000,
+      'adr':12345667890,
+      'pan':'GHNBJNGDB67548M',
+       }
+print(data_)
+data_.clear()
+print(data_)
+
+del():-
+eg:- del data_['adr']
+     print(data_)
+     data_.clear()
+     print(data_)
+
+statement:-
+ i. if statement
+-->if condition become true,then it will execute inside block of code
+--> incase it become false, then it will never entry inside block.
+eg:- age=21
+if age>=18:
+    print('Eligible to vote')
+print(age)
+eg:-
+a=90
+b=78
+if a>b:
+    print(a)
+
+2. if else
+else for a if statement is a fall- back statement,incase if condition is false then else block will execute.
+eg:-age=15
+if age>=18:
+    print(f' your {age}eligible to vote')
+    
+else:
+     print(f' your {age}you have to wait{18-age}')
+a=90
+b=780
+if a>b:
+ print(a)
+ 
+else:
+   print(b)
+
+
+
+
+
+'''
+
+age=15
+if age>=18:
+    print(f' your {age}eligible to vote')
+    
+else:
+     print(f' your {age}you have to wait{18-age}')
+a=90
+b=780
+if a>b:
+ print(a)
+ 
+else:
+   print(b)
+        
