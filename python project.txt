@@ -1,0 +1,11 @@
+                                             
+PYTHON PROJECT
+==============
+
+Project Name: ATM
+Technologies: Basic Python eg: statements, variables, conditions, datatypes, operators
+Pin Authentication
+Pin
+withdraw
+mini statement
+check balance
